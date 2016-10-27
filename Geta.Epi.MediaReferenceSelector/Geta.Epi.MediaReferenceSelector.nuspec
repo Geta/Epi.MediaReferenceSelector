@@ -12,6 +12,10 @@
     <releaseNotes></releaseNotes>
     <copyright></copyright>
     <tags>EPiServer</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.Core" version="9.0.0" />
+      <dependency id="EPiServer.CMS.UI.Core" version="9.0.0" />
+    </dependencies>
   </metadata>
   <files>
     <file src="bin\Geta.Epi.MediaReferenceSelector.dll" target="lib\net45\" />
