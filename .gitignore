@@ -109,4 +109,3 @@ Backup*/
 UpgradeLog*.XML
 License.config
 *.orig
-.vs/config/applicationhost.config

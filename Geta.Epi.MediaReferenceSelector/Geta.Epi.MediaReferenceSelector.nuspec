@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Geta.Epi.MediaReferenceSelector</id>
+    <version>$version$</version>
+    <title>Episerver MediaReferenceSelector</title>
+    <authors>Mattias Olsson</authors>
+    <owners>Geta AS</owners>
+    <projectUrl>https://www.nho.no/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enhanced media reference selector for Episerver with direct file upload functionality.</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags>EPiServer</tags>
+  </metadata>
+  <files>
+    <file src="bin\Geta.Epi.MediaReferenceSelector.dll" target="lib\net45\" />
+    <file src="bin\Geta.Epi.MediaReferenceSelector.zip" target="content\modules\_protected\Geta.Epi.MediaReferenceSelector\" />
+    <file src="Web.Module.config" target="content\modules\_protected\Geta.Epi.MediaReferenceSelector\Web.config" />
+  </files>
+</package>
