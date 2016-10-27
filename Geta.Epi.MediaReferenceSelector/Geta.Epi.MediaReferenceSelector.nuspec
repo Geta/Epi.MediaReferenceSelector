@@ -3,10 +3,10 @@
   <metadata>
     <id>Geta.Epi.MediaReferenceSelector</id>
     <version>$version$</version>
-    <title>Episerver MediaReferenceSelector</title>
-    <authors>Mattias Olsson</authors>
-    <owners>Geta AS</owners>
-    <projectUrl>https://www.nho.no/</projectUrl>
+    <title>Enhanced Episerver media reference selector</title>
+    <authors>Geta</authors>
+    <owners>Geta</owners>
+    <projectUrl>https://github.com/Geta/Epi.MediaReferenceSelector</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Enhanced media reference selector for Episerver with direct file upload functionality.</description>
     <releaseNotes></releaseNotes>
