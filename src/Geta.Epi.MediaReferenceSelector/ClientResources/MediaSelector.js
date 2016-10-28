@@ -83,7 +83,7 @@ res) {
 		this.store = this.store || dependency.resolve("epi.storeregistry").get(this.storeKey);
 
 		// load the current content and context
-		dojo.when(promiseAll([this.getCurrentContent(), this.getCurrentContext()]), lang.hitch(this, function (result) {
+		when(promiseAll([this.getCurrentContent(), this.getCurrentContext()]), lang.hitch(this, function (result) {
 
 			var content = result[0],
 			currentContext = result.length > 1 ? result[1] : null;
@@ -167,7 +167,7 @@ res) {
 			var targetContentLinkWithoutVersion =
 				new ContentReference(this.upload_target).createVersionUnspecificReference().toString();
 
-			dojo.when(this.store.refresh(targetContentLinkWithoutVersion), lang.hitch(this, function (refreshedContent) {
+			when(this.store.refresh(targetContentLinkWithoutVersion), lang.hitch(this, function (refreshedContent) {
 				// used for refreshing the treeview and also find the dropped file
 				// set the list query to be able to query children of the current 
 				// assets folder (needed to find out the contentLink for the uploaded item)
@@ -187,7 +187,7 @@ res) {
 					function (contentList) {
 						// filter out only files with same name as uploaded file
 						var createdContent = array.filter(contentList, function (content) {
-							return content.name == uploaded.fileName;
+							return content.name === uploaded.fileName;
 						});
 
 						if (!createdContent || createdContent.length <= 0) {
