@@ -1,13 +1,13 @@
 # Geta.Epi.MediaReferenceSelector
 This module replaces the built-in media content reference editors in Episerver and adds possibility to upload files directly without having to go the extra step through the assets panel.
 
-## How to get started
+## How to install
 
 Install NuGet package (use [EPiServer Nuget](http://nuget.episerver.com))
 
     Install-Package Geta.Epi.MediaReferenceSelector
 
-## Basics
+## How to use
 
 Decorate the content reference property as usual:
 
