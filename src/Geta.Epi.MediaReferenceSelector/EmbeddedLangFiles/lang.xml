@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+    <language name="English" id="en">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Drop files here to upload</dropzonedescription>
+                        <linktocreateitem>Create a new item</linktocreateitem>
+                        <nosearchresults>No results found</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>For All Sites</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>For This Site</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>Failed to translate the content "{0}". You might not have access rights for this action.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+    
+    <language name="dansk" id="da">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Slip filer, der skal overføres, her</dropzonedescription>
+                        <linktocreateitem>Opret et nyt element</linktocreateitem>
+                        <nosearchresults>Der blev ikke fundet nogen resultater</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>For alle websteder</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>For dette websted</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>Det var ikke muligt at oversætte indholdet "{0}". Du har muligvis ikke rettigheder til at bruge denne handling.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+    
+    <language name="Deutsch" id="de">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Dateien zum Hochladen hier ablegen</dropzonedescription>
+                        <linktocreateitem>Neues Element erstellen</linktocreateitem>
+                        <nosearchresults>Keine Ergebnisse gefunden</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>Für alle Sites</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>Für diese Site</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>Der Inhalt "{0}" konnte nicht übersetzt werden. Möglicherweise besitzen Sie keine Zugriffsrechte für diesen Vorgang.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+
+    <language name="español" id="es">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Soltar los archivos aquí para su carga</dropzonedescription>
+                        <linktocreateitem>Crear un nuevo elemento</linktocreateitem>
+                        <nosearchresults>No se han encontrado resultados</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>Para todos los sitios</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>Para este sitio</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>No se pudo traducir el contenido "{0}". Es posible que usted no disponga de derechos de acceso para esta acción.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+
+    <language name="suomi" id="fi">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Pudota tiedostot tähän ladattavaksi</dropzonedescription>
+                        <linktocreateitem>Luo uusi kohde</linktocreateitem>
+                        <nosearchresults>Ei tuloksia</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>Kaikille sivustoille</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>Tälle sivustolle</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>Sisältökohteen ”{0}” kääntäminen epäonnistui. Sinulla ei välttämättä ole käyttöoikeuksia tätä toimenpidettä varten.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+
+    <language name="français" id="fr">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Déposer les fichiers à télécharger ici</dropzonedescription>
+                        <linktocreateitem>Créer un nouvel élément</linktocreateitem>
+                        <nosearchresults>Aucun résultat trouvé</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>Pour tous les sites</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>Pour ce site</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>Échec de la traduction du contenu « {0} ». Vous ne disposez peut-être pas des droits d'accès pour cette action.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+
+    <language name="Italiano" id="it">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Rilascia i file qui per caricare</dropzonedescription>
+                        <linktocreateitem>Crea un nuovo elemento</linktocreateitem>
+                        <nosearchresults>Non trovato nessun risultato</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>Per tutti i siti</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>Per questo sito</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>Impossibile tradurre il contenuto "{0}". Probabilmente non si dispone dei diritti di accesso per questa azione.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+
+    <language name="日本語 (Japanese)" id="ja">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>ファイルをここにドロップしてアップロード</dropzonedescription>
+                        <linktocreateitem>新規項目の作成</linktocreateitem>
+                        <nosearchresults>結果が見つかりません</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>全サイト用</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>このサイト用</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>コンテンツ "{0}" の変換に失敗しました。 このアクションを実行するためのアクセス権限がない可能性があります。</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+
+    <language name="Nederlands" id="nl">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Bestanden hier neerzetten om te uploaden</dropzonedescription>
+                        <linktocreateitem>Een nieuw item aanmaken</linktocreateitem>
+                        <nosearchresults>Geen resultaten gevonden</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>Voor alle sites</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>Voor deze site</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>Vertalen van de inhoud "{0}" mislukt. U hebt mogelijk geen toegangsrechten voor deze handeling.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+
+    <language name="Norsk" id="no">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Slipp filer her for å laste dem opp</dropzonedescription>
+                        <linktocreateitem>Opprett nytt element</linktocreateitem>
+                        <nosearchresults>Fant ingen resultater</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>For alle nettsteder</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>For dette nettstedet</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>Kunne ikke oversette innholdet "{0}". Det kan være du ikke har tilgangsrettigheter for denne handlingen.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+
+    <language name="Svenska" id="sv">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>Släpp filer som du vill ladda upp här</dropzonedescription>
+                        <linktocreateitem>Skapa ett nytt objekt</linktocreateitem>
+                        <nosearchresults>Inga träffar funna</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>För alla webbplatser</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>För denna webbplats</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>Det gick inte att översätta innehållet {0}. Du kanske inte har rättigheter att utföra den här åtgärden.</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+
+    <language name="中文 (Chinese)" id="zh-CN">
+        <geta>
+            <epi>
+                <widget>
+                    <hierachicallist>
+                        <dropzonedescription>在此拖放文件并上传</dropzonedescription>
+                        <linktocreateitem>创建一个新项目</linktocreateitem>
+                        <nosearchresults>没有找到任何结果</nosearchresults>
+                        <roots>
+                            <globalroot>
+                                <label>为所有网站</label>
+                            </globalroot>
+                            <siteroot>
+                                <label>为此网站</label>
+                            </siteroot>
+                        </roots>
+                        <translationfailedmessage>无法翻译内容“{0}”。 您没有操作权限。</translationfailedmessage>
+                    </hierachicallist>
+                </widget>
+            </epi>
+        </geta>
+    </language>
+</languages>

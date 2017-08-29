@@ -24,11 +24,10 @@
 "epi-cms/core/ContentReference",
 
 // template
-"dojo/text!./templates/AssetsDropZone.html",
 "xstyle/css!./style.css",
 
 // Resources
-"epi/i18n!epi/cms/nls/episerver.cms.widget.hierachicallist"],
+"epi/i18n!epi/cms/nls/geta.epi.widget.hierachicallist"],
 function (
 
 // dojo
@@ -56,7 +55,6 @@ ApplicationSettings,
 ContentReference,
 
 //template
-dropZoneTemplate,
 css,
 
 //resources
@@ -122,18 +120,18 @@ res) {
 		// use the same html-template and resources that is used in the ordinary
 		// hierarchical list
 		this.own(this._dropZone = new DropZone({
-			templateString: dropZoneTemplate,
-			res: res,
-			outsideDomNode: this.droppableContainer
+            enabled: true,
+            outsideDomNode: this.droppableContainer,
+            validSelection: true,
+            descriptionText: res.dropzonedescription
 		}));
-		domConstruct.place(this._dropZone.domNode, this.droppableContainer, "last");
+
+	    this._dropZone.placeAt(this.droppableContainer);
 
 		// create event listener for the onDrop-event
-		this.connect(this._dropZone, "onDrop", this._onDrop);
+        this.connect(this._dropZone, "onDrop", this._onDrop);
 
-		// append the container
-		this.domNode.appendChild(this.droppableContainer);
-
+	    this.domNode.appendChild(this.droppableContainer);
 	},
 
 	_onDrop: function(evt, fileList) {
@@ -152,7 +150,7 @@ res) {
 	upload: function(file, targetId, createAsLocalAsset) {
 		var uploader = new MultipleFileUpload({
 			model: new MultipleFileUploadViewModel({})
-		});
+        });
 
 		// event triggered when the upload is completed
 		uploader.on("uploadComplete", lang.hitch(this, function(uploadedFiles) {
@@ -176,7 +174,7 @@ res) {
 					query: "getchildren",
 					allLanguages: true,
 					typeIdentifiers: []
-				};
+                };
 
 				if (this.inCreateMode) {
 					this.listQuery.referenceId = this.upload_target;
@@ -201,7 +199,6 @@ res) {
 						if (this._isContentAllowed(created.typeIdentifier)) {
 						    this.focus();
 						    this.set('value', created.contentLink);
-						    this.blur();
 						}
 					}
 				));
