@@ -1,7 +1,4 @@
-﻿using EPiServer;
-using EPiServer.Core;
-using EPiServer.DataAbstraction;
-using EPiServer.Framework;
+﻿using EPiServer.Framework;
 using EPiServer.Framework.Initialization;
 using EPiServer.Framework.Localization;
 using EPiServer.Framework.Localization.XmlResources;
@@ -19,6 +16,9 @@ namespace Geta.Epi.MediaReferenceSelector
 
         public void Initialize(InitializationEngine context)
         {
+            var serviceLocator = context.Locate.Advanced;
+
+            AddLocalizationProvider(serviceLocator.GetInstance<LocalizationService>());
         }
 
         public void Uninitialize(InitializationEngine context)
@@ -26,7 +26,7 @@ namespace Geta.Epi.MediaReferenceSelector
         }
 
 
-        private static void AddLocalizationProvider(LocalizationService localizationService, ILanguageBranchRepository languageBranchRepository, IContentLanguageSettingsHandler contentLanguageSettingsHandler, IContentLoader contentLoader)
+        private static void AddLocalizationProvider(LocalizationService localizationService)
         {
             var providerBasedLocalizationService = localizationService as ProviderBasedLocalizationService;
 
