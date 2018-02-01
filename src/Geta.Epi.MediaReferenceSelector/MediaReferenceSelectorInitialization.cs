@@ -39,7 +39,7 @@ namespace Geta.Epi.MediaReferenceSelector
             XmlLocalizationProvider localizationProvider = localizationProviderInitializer.GetInitializedProvider(LocalizationProviderName, Assembly.GetExecutingAssembly());
 
             //Inserts the provider first in the provider list so that it is prioritized over default providers.
-            providerBasedLocalizationService.Providers.Insert(0, localizationProvider);
+            providerBasedLocalizationService.InsertProvider(localizationProvider);
         }
     }
 }
