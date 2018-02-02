@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/Geta/Epi.MediaReferenceSelector</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Enhanced media reference selector for Episerver with direct file upload functionality.</description>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>https://github.com/Geta/Epi.MediaReferenceSelector/blob/master/CHANGELOG.md#200</releaseNotes>
     <copyright></copyright>
     <tags>EPiServer</tags>
     <dependencies>
