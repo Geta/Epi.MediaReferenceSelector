@@ -30,3 +30,6 @@ Or:
 
 ## Package maintainer
 https://github.com/MattisOlsson
+
+## Changelog
+[Changelog](docs/CHANGELOG.md)
