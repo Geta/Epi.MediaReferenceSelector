@@ -32,4 +32,4 @@ Or:
 https://github.com/MattisOlsson
 
 ## Changelog
-[Changelog](docs/CHANGELOG.md)
+[Changelog](CHANGELOG.md)
