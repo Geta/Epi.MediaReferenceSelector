@@ -1,5 +1,9 @@
 # Geta.Epi.MediaReferenceSelector
 
+## This project will no further be maintained.
+As of Episerver CMS 11.15.0 Episerver have introduced similar functionality, so this project is not needed any longer.
+https://world.episerver.com/blogs/bartosz-sekula/dates/2019/1/image-property-editor-enhancements/
+
 ## Description
 This module replaces the built-in media content reference editors in Episerver and adds possibility to upload files directly without having to go the extra step through the assets panel.
 
