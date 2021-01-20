@@ -12,6 +12,7 @@
     <releaseNotes>https://github.com/Geta/Epi.MediaReferenceSelector/blob/master/CHANGELOG.md#200</releaseNotes>
     <copyright></copyright>
     <tags>EPiServer</tags>
+    <repository type="git" url="URL" branch="BRANCH_NAME" commit="COMMIT" />
     <dependencies>
       <dependency id="EPiServer.CMS.Core" version="[11.1.0, 12)" />
       <dependency id="EPiServer.CMS.UI.Core" version="[11.1.0, 12)" />
