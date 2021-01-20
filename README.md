@@ -1,5 +1,8 @@
 # Geta.Epi.MediaReferenceSelector
 
+* Master<br>
+![](http://tc.geta.no/app/rest/builds/buildType:(id:GetaPackages_EPiMediaReferenceSelector_00ci),branch:master/statusIcon)
+
 ## This project will no further be maintained.
 As of Episerver CMS 11.15.0 Episerver have introduced similar functionality, so this project is not needed any longer.
 https://world.episerver.com/blogs/bartosz-sekula/dates/2019/1/image-property-editor-enhancements/
